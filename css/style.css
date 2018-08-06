@@ -1,3 +1,9 @@
 #ace-card {
     position: fixed;
 }
+
+@media screen and (max-width:992px) {
+    #ace-card {
+        position: static;
+    }
+}
